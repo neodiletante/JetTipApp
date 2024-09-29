@@ -42,7 +42,8 @@ fun RoundIconButton(
 
         ) {
 
-            Icon(modifier = modifier.size(30.dp).align(Alignment.CenterHorizontally)., imageVector = imageVector,
+            Icon(modifier = modifier.size(40.dp).align(Alignment.CenterHorizontally),
+                imageVector = imageVector,
                 contentDescription = "Más o menos",
                 tint = tint,
                 )
